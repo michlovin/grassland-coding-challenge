@@ -9,6 +9,7 @@ export class FruitTableViewModel implements OnInit {
   fruitData$ = new BehaviorSubject<Fruit[]>(null);
   filteredData$ = new BehaviorSubject<Fruit[]>(null);
   loadingFruit$ = new BehaviorSubject<boolean>(false);
+  //like setting the state in react app
 
   constructor(private fruitService: FruityViceService) {
     this.loadingFruit$.next(true);
@@ -20,6 +21,7 @@ export class FruitTableViewModel implements OnInit {
       console.log(this.fruitData$);
     });
   }
+  //like the useEffect
 
   ngOnInit(): void {}
 }
