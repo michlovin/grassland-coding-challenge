@@ -4,10 +4,11 @@
   width: 100%;
   justify-content: center;
 }
-//entire app background
+//header background
 .mat-card-header {
-  background-color: powderblue;
+  background-color: goldenrod;
   border-radius: 10%;
+  text-align: center;
 }
 //colours table rows
 .rows-alternate:nth-child(2n) {
