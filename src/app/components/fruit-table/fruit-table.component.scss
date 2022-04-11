@@ -1,7 +1,23 @@
-
 .loading-spinner-container {
   padding: 2rem;
   display: flex;
   width: 100%;
   justify-content: center;
+}
+//header background
+.mat-card-header {
+  background-color: goldenrod;
+  border-radius: 10%;
+  text-align: center;
+}
+//colours table rows
+.rows-alternate:nth-child(2n) {
+  background-color: #fafafa;
+}
+
+td.last-column {
+  text-align: right;
+}
+tr.highlight {
+  background-color: #31bf5d;
 }
